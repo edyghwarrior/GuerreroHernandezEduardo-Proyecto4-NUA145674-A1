@@ -3,6 +3,23 @@ void principal(){
   
   if(p1==1){
   background(0);
+  fill(0);
+        rect(0,0,960,640);
+        textFont(fuente);
+        fill(255);
+        textSize(25);
+        text("  ¡Si te ries pierdes!",20,50);
+        fill(220);
+        text("  Instrucciones:",20,100);
+        textSize(25);
+        text("- Ya sea solo o acompado juega usando las teclas del 1 al 5 para",20,150);
+        text("   intercambiar entre los efectos visuales. (Uno a la vez - ALPHA)",20,190);
+        text("- Puedes usar la tecla f para pausar y reproducir, busca hacer",20,230);
+        text("   muecas divertidas y hacer reir a tu compañero.",20,270);
+        text("- Puedes usar ENTER para sacar un marco guia para tu rostro",20,310);
+        text("- Presiona ENTER para continuar",20,450);
+        scale(.25);
+        image(foto,1700,1400);
   }
   
   if(p1==2){
